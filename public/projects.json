@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Product Recommendation",
+        "image": "https://i.postimg.cc/R05p9z48/easy-recommendation-feature.png",
+        "liveLink": "https://easy-recommendations.netlify.app",
+        "gitHubLink": "https://github.com/developernagor/easy-recommendations-client",
+        "techStack": ["React", "TailwindCSS", "Firebase"],
+        "description": "A personal portfolio built with React and Tailwind CSS.",
+        "challenges": "Integrating dynamic product recommendations using APIs and managing state.",
+        "futurePlans": "Add machine learning algorithms for better recommendations."
+      },
+      {
+        "id": 2,
+        "title": "Sports Equipment Store",
+        "image": "https://i.postimg.cc/W4GW1f44/sports-equipment-store.png", 
+        "liveLink": "https://sports-equipment-store.netlify.app",
+        "gitHubLink": "https://github.com/developernagor/sports-equipment-store-client",
+        "techStack": ["React", "Stripe", "Node.js", "MongoDB"],
+        "description": "A fully functional e-commerce store with Stripe payment integration.",
+        "challenges": "Implementing secure payment integration with Stripe API.",
+        "futurePlans": "Integrate inventory management system and customer feedback system."
+      },
+      {
+        "id": 3,
+        "title": "My Haven Homes",
+        "image": "https://i.postimg.cc/FHChT4Ht/my-haven-homes.png", 
+        "liveLink": "https://my-haven-homes.netlify.app",
+        "gitHubLink": "https://github.com/developernagor/my-haven-homes-client",
+        "techStack": ["React", "Node.js", "MongoDB", "Express", "JWT Authentication"],
+        "description": "A realstate website where user can buy property.",
+        "challenges": "Handling authentication and protecting sensitive data using JWT.",
+        "futurePlans": "Add team collaboration features and integration with Google Calendar."
+      }
+    ]
