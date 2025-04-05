@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Project({project}) {
-    console.log(project)
-    const {id,title,image,description} = project;
+    const {_id,title,image,description} = project;
     return (
         <div  className="card bg-white shadow-lg rounded-lg overflow-hidden">
             <figure>
@@ -20,7 +19,7 @@ function Project({project}) {
 
             <div className="card-actions justify-center p-4">
               <Link
-                to={`/projects/${id}`}
+                to={`/projects/${_id}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"

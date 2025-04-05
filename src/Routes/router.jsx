@@ -12,20 +12,17 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-    //   {
-    //     path: '/projects/:id',
-    //     element: <ProjectDetails></ProjectDetails>
-    // }
+      {
+        path: '/projects/:id',
+        element: <ProjectDetails></ProjectDetails>,
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}/projects`)
+
+    }
       
 
       
     ],
   },
-  {
-      path: '/projects/:id',
-      element: <ProjectDetails></ProjectDetails>,
-      loader: () => fetch('/projects.json')
-  }
 ]);
 
 export default router;
